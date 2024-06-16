@@ -1,0 +1,17 @@
+header {
+  background-color: aqua;
+  width: 0px;
+}
+
+header ul {
+  list-style: none;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  display: inline;
+  margin: 20px;
+}

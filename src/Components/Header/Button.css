@@ -1,0 +1,10 @@
+li {
+  margin: 20px;
+  display: inline;
+}
+button {
+  width: fit-content;
+  height: fit-content;
+  font-size: 30px;
+  background-color: none;
+}
