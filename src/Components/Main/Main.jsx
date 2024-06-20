@@ -1,8 +1,8 @@
-import Networking from "../Networking/Networking.jsx";
-import Button from "./Button.jsx";
-import "./Header.css";
+import Aboutme from "../About me/Aboutme.jsx";
+import Button from "../Button/Button.jsx";
+import "./Main.css";
 
-export default function Header() {
+export default function Main() {
   return (
     <>
       <header>
@@ -16,7 +16,7 @@ export default function Header() {
       </header>
 
       <div className="container">
-        <Networking></Networking>
+        <Aboutme></Aboutme>
       </div>
     </>
   );
