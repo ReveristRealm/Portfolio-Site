@@ -8,11 +8,11 @@ import { SiPython } from "react-icons/si";
 
 export default function Technologies() {
   return (
-    <div className="borber-b border-neutral-800 pb-24">
+    <div className="border-b border-neutral-800 pb-24">
       <h2 className="my-20 text-center text-4xl">Techonologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div classname="rounded-2xl border-4 border-neutral-800 p-4">
-          <RiJavaFill className="text-7xl text-black-400" />
+          <RiJavaFill className="text-7xl text-sky-300" />
         </div>
         <div classname="rounded-2xl border-4 border-neutral-800 p-4">
           <RiJavascriptFill className="text-7xl text-yellow-400" />
