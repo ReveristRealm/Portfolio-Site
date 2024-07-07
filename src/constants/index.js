@@ -24,12 +24,26 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+  },
+  {
+    title: "DataVise",
+    image: project3,
+    description:
+      "A discord bot for the CS students at Queens College. It can be their job tracker or provide resources when they need it!.",
+    technologies: ["JavaScript", "PostgreSQL", "Node.js", "Discord.js"],
+  },
+  {
+    title: "E-Commerce Backend",
+    image: project3,
+    description:
+      "A project that was done to showcase what I learned in my bootcamp.",
+    technologies: ["Java", "SpringBoot", "MySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "Blank ",
+  address: "New york city ",
   phoneNo: "blank ",
-  email: "me@example.com",
+  email: "iamdanielj@outlook.com",
 };

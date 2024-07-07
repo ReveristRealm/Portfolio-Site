@@ -11,10 +11,12 @@ export default function Navbar() {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaGithub />
-        <FaInstagram />
-        <FaSquareXTwitter />
-        <FaLinkedin />
+        <a href="https://github.com/ReveristRealm">
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/danieljac/">
+          <FaLinkedin />
+        </a>
       </div>
     </nav>
   );
