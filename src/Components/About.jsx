@@ -26,7 +26,7 @@ export default function About() {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">
+            <p className="my-2 max-w-xl py-6 text-xl font-light">
               To go more in-depth about me, I am on the executive board of a
               club at Queens College, Code For All, as a Tech workshop
               developer. I host events teaching students about various topics in
@@ -35,8 +35,8 @@ export default function About() {
               like to improve my skills in Computer Science. I like to also
               attend networking events to meet new people in the industry and
               see different companies and how they utilize technologies. Outside
-              of academia, some of my hobbies are playing tennis, snowboarding,
-              and traveling.
+              of academia, some of my personal hobbies are playing tennis,
+              snowboarding, and traveling.
             </p>
           </div>
         </motion.div>

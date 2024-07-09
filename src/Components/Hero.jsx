@@ -29,7 +29,7 @@ export default function Hero() {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent pb-2 "
+              className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-5xl tracking-tight text-transparent pb-2 "
             >
               Software Engineer
             </motion.span>
@@ -37,9 +37,32 @@ export default function Hero() {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-3xl"
             >
-              {HERO_CONTENT}
+              Welcome to my site!, my name is Daniel Jackson and I currently
+              attend{" "}
+              <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">
+                Queens College, City University of New York
+              </span>
+              , as a computer science major. Im working towards becoming a
+              software engineer by always looking for oppurtunites to improve my
+              skills in the field. What I bring to the workplace is{" "}
+              <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">
+                collaboration
+              </span>
+              ,{" "}
+              <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">
+                willingness to learn
+              </span>
+              ,{" "}
+              <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">
+                positive thinking
+              </span>{" "}
+              and{" "}
+              <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">
+                professionalism
+              </span>
+              . I hope we can work together in the future!.
             </motion.p>
           </div>
         </div>
