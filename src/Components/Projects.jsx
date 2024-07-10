@@ -40,7 +40,7 @@ export default function Projects() {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium bg-gradient-to-r from-purple-500 via-slate-500 to-[#1BFFFF] bg-clip-text text-transparent"
+                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500"
                 >
                   {tech}
                 </span>

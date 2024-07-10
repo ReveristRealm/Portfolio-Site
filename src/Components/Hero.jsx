@@ -1,6 +1,7 @@
-import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/PokeHolder.jpg";
 import { motion } from "framer-motion";
+import Lottie from "react-lottie";
+import animationData from "../assets/Lottie/robot.json";
+import "./Hero.css";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -12,6 +13,14 @@ const container = (delay) => ({
 });
 
 export default function Hero() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -68,13 +77,14 @@ export default function Hero() {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img
+            <motion.div
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="Daniel Jackson"
-            />
+              className="lottie-container"
+            >
+              <Lottie options={defaultOptions} className="lottie-animation" />
+            </motion.div>
           </div>
         </div>
       </div>

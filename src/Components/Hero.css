@@ -1,0 +1,20 @@
+.lottie-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.lottie-animation {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+@media (max-width: 768px) {
+  .lottie-animation {
+    width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .lottie-animation {
+    width: 200px;
+  }
+}
