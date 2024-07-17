@@ -32,7 +32,7 @@ export default function About() {
                 {" "}
                 executive board
               </span>{" "}
-              of a tech club at Queens College,{" "}
+              of the largest tech club at Queens College,{" "}
               <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">
                 Code For All
               </span>
