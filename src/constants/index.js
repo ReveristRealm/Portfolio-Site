@@ -11,7 +11,7 @@ export const ABOUT_TEXT = `Lorem ipsum dolor sit amet, consectetur adipiscing el
 export const EXPERIENCES = [
   {
     year: "Mar. 2023 - Jul. 2023",
-    role: "Fellow, Aplication Development",
+    role: "Fellow, Application Development",
     company: "Year Up",
     description: ` Practiced and implemented the use of Java, SpringBoot, OOP, Git/Github, MySql databases, and ran unit
  test to verify code through live demos(400+ hours of training).`,
@@ -23,7 +23,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: num1,
-    description: "A site from me, About me!, what did you learn? :)",
+    description: "A site from me, about me!, what did you learn? :)",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
   },
   {
