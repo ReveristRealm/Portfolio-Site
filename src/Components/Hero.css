@@ -1,20 +1,20 @@
-.lottie-container {
+.lottie-container svg {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.lottie-animation {
+.lottie-animation svg {
   max-width: 100%;
   height: auto;
   width: 400px;
 }
 @media (max-width: 768px) {
-  .lottie-animation {
+  .lottie-animation svg {
     width: 300px;
   }
 }
 @media (max-width: 480px) {
-  .lottie-animation {
+  .lottie-animation svg {
     width: 200px;
   }
 }

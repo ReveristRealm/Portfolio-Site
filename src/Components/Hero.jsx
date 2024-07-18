@@ -1,6 +1,7 @@
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import Lottie from "react-lottie";
-import animationData from "../assets/Lottie/robot.json";
+import lottie from "lottie-web/build/player/lottie_light";
+import animationData from "../assets/lottie/robot.json";
 import "./Hero.css";
 
 const container = (delay) => ({
@@ -13,14 +14,27 @@ const container = (delay) => ({
 });
 
 export default function Hero() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  const lottieRef = useRef(null);
+  const animationRef = useRef(null);
+
+  useEffect(() => {
+    if (lottieRef.current) {
+      animationRef.current = lottie.loadAnimation({
+        container: lottieRef.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+      });
+    }
+
+    return () => {
+      if (animationRef.current) {
+        animationRef.current.destroy();
+      }
+    };
+  }, []);
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -83,7 +97,7 @@ export default function Hero() {
               transition={{ duration: 1, delay: 1.2 }}
               className="lottie-container"
             >
-              <Lottie options={defaultOptions} className="lottie-animation" />
+              <div ref={lottieRef} className="lottie-animation"></div>
             </motion.div>
           </div>
         </div>
