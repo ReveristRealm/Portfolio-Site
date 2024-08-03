@@ -30,7 +30,7 @@ export const PROJECTS = [
     title: "DataVise",
     image: num2,
     description:
-      "A discord bot for the CS students at Queens College. It can be their job tracker or provide resources when they need it!.",
+      "A Discord bot for the CS students at Queens College. It can be their job tracker or provide resources when they need it!.",
     technologies: ["JavaScript", "PostgreSQL", "Node.js", "Discord.js"],
   },
   {
