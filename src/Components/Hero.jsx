@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import lottie from "lottie-web/build/player/lottie_light";
-import animationData from "../assets/lottie/robot.json";
+import animationData from "../assets/Lottie/robot.json";
 import "./Hero.css";
 
 const container = (delay) => ({

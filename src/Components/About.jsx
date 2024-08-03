@@ -1,10 +1,9 @@
 import selfie from "../assets/selfie.jpg";
-
 import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="borber-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">
         About <span className="text-neutral-500"> Me </span>
       </h1>
@@ -38,7 +37,7 @@ export default function About() {
               </span>
               , as a tech workshop developer. I host events teaching students
               about various topics in CS and provide the latest updates
-              reguarding tech oppurtunities. I also like to code on my freetime
+              regarding tech opportunities. I also like to code on my free time
               and constantly like to improve my skills in computer science by
               taking{" "}
               <span className="bg-gradient-to-r from-purple-500 via slate-500 to-[#1BFFFF] bg-clip-text text-transparent">

@@ -8,7 +8,7 @@ import { SiPython } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
-  inital: { y: -10 },
+  initial: { y: -10 },
   animate: {
     y: [10, -10],
     transition: {
